@@ -27,10 +27,7 @@
           <li><a class="btn btn-gold" href="booking.html">Book Free Consultation</a></li>
         </ul>
       </nav>
-      <form class="nav-search" action="universities.html" method="get" role="search">
-        <input type="search" name="q" placeholder="Search" aria-label="Search" />
-        <button type="submit" class="btn btn-outline">Search</button>
-      </form>
+      
     </div>
   </header>
 
@@ -44,76 +41,59 @@
     </section>
 
     <section class="section container">
-      <div class="filterbar reveal" aria-label="Scholarship filters">
-        <div class="searchbar">
-          <input id="schSearch" type="search" placeholder="Search scholarships, regions, cities (e.g., DSU, Rome, Tuscany)" aria-label="Search scholarships" />
-        </div>
-        <div class="chips" role="tablist">
-          <button class="chip active" data-type="all" role="tab" aria-selected="true">All</button>
-          <button class="chip" data-type="regional" role="tab" aria-selected="false">Regional</button>
-          <button class="chip" data-type="merit" role="tab" aria-selected="false">Merit</button>
-          <button class="chip" data-type="university" role="tab" aria-selected="false">University</button>
-        </div>
-      </div>
       <div class="grid scholarship-list">
-        <article class="sch-card reveal" data-type="regional" data-tags="dsu,tuscany,lombardy,veneto,regional">
-          <img src="https://images.unsplash.com/photo-1543349689-9a4d426bee8e?q=80&w=1200&auto=format&fit=crop" alt="Florence cathedral, Tuscany region" />
+        <article class="sch-card reveal">
           <div class="card-content">
-            <h2>DSU (Regional Right to Study)</h2>
-            <p><strong>Eligibility:</strong> Income-based; available in regions like Tuscany, Lombardy, Veneto.</p>
-            <p><strong>Benefits:</strong> Tuition waiver, accommodation/meal subsidies, stipend.</p>
-            <div class="tags"><span>Regional</span><span>Tuscany</span><span>Lombardy</span></div>
-            <div class="mt-16">
-              <a class="btn btn-outline" href="booking.html">Get help applying</a>
-            </div>
+            <h2><span class="sch-icon" aria-hidden="true">🏛️</span>DSU Regional Scholarships (Right to Education)</h2>
+            <p><strong>Eligibility:</strong> Open to non‑EU international students, including Nepali, enrolled in public universities. Awarded based on family income/ISEE and merit.</p>
+            <p><strong>Regions:</strong> Tuscany (DSU Toscana), Lombardy (DSU), Lazio (DiSCo), Emilia‑Romagna (ER.GO), Piedmont (EDISU), Veneto.</p>
+            <p><strong>Benefits:</strong> Tuition waiver/reduction, accommodation and meal subsidies, annual stipend.</p>
+            <a class="btn btn-outline mt-16" href="booking.html">Get help with DSU</a>
           </div>
         </article>
-        <article class="sch-card reveal" data-type="regional" data-tags="er.go,emilia-romagna,bologna,regional">
-          <img src="https://images.unsplash.com/photo-1617201805763-077a87c4b96d?q=80&w=1200&auto=format&fit=crop" alt="Bologna porticoes, Emilia-Romagna" />
+
+        <article class="sch-card reveal">
           <div class="card-content">
-            <h2>ER.GO (Emilia-Romagna)</h2>
-            <p><strong>Eligibility:</strong> Income-based for students in Bologna, Modena, Parma, etc.</p>
-            <p><strong>Benefits:</strong> Fee reductions, housing aid, meal cards.</p>
-            <div class="tags"><span>Regional</span><span>Emilia-Romagna</span><span>Bologna</span></div>
-            <div class="mt-16">
-              <a class="btn btn-outline" href="booking.html">Get help applying</a>
-            </div>
+            <h2><span class="sch-icon" aria-hidden="true">🇮🇹</span>MAECI – Italian Government Scholarships</h2>
+            <p><strong>Eligibility:</strong> Open to foreign citizens including Nepali for Master’s, AFAM, or PhD programs in Italy. Competitive selection based on academics and proposals.</p>
+            <p><strong>Benefits:</strong> Tuition exemptions/agreements, monthly allowance, health insurance (per call).</p>
+            <a class="btn btn-outline mt-16" href="booking.html">Check your eligibility</a>
           </div>
         </article>
-        <article class="sch-card reveal" data-type="regional" data-tags="laziodisco,rome,lazio,regional">
-          <img src="https://images.unsplash.com/photo-1523537445-25443fdd4f3b?q=80&w=1200&auto=format&fit=crop" alt="Rome cityscape, Lazio region" />
+
+        <article class="sch-card reveal">
           <div class="card-content">
-            <h2>LazioDisco (Lazio Region)</h2>
-            <p><strong>Eligibility:</strong> Students enrolled in Rome-based universities.</p>
-            <p><strong>Benefits:</strong> Fee waivers, housing contribution, meals.</p>
-            <div class="tags"><span>Regional</span><span>Lazio</span><span>Rome</span></div>
-            <div class="mt-16">
-              <a class="btn btn-outline" href="booking.html">Get help applying</a>
-            </div>
+            <h2><span class="sch-icon" aria-hidden="true">🇪🇺</span>Erasmus Mundus Joint Masters (EMJM)</h2>
+            <p><strong>Eligibility:</strong> Open to all nationalities including Nepali. Apply to EMJM programs that include Italian universities in their consortium.</p>
+            <p><strong>Benefits:</strong> Full scholarship covering participation costs, monthly stipend, travel and installation support.</p>
+            <a class="btn btn-outline mt-16" href="booking.html">Find EMJM programs</a>
           </div>
         </article>
-        <article class="sch-card reveal" data-type="merit" data-tags="merit,tuition waiver,excellence,polimi,milan">
-          <img src="https://images.unsplash.com/photo-1541264161754-445bbdd7deae?q=80&w=1200&auto=format&fit=crop" alt="Milan Duomo, Lombardy" />
+
+        <article class="sch-card reveal">
           <div class="card-content">
-            <h2>Merit-Based Tuition Waivers</h2>
-            <p><strong>Eligibility:</strong> Outstanding academic profile, test scores, portfolio.</p>
-            <p><strong>Benefits:</strong> Partial/full tuition fee waivers.</p>
-            <div class="tags"><span>Merit</span><span>Politecnico di Milano</span><span>Excellence</span></div>
-            <div class="mt-16">
-              <a class="btn btn-outline" href="universities.html#polimi">Explore Polimi</a>
-            </div>
+            <h2><span class="sch-icon" aria-hidden="true">🎓</span>University of Bologna – Unibo Action 1 & 2</h2>
+            <p><strong>Eligibility:</strong> International students including Nepali admitted to eligible Bachelor’s/Master’s programs.</p>
+            <p><strong>Benefits:</strong> Tuition fee waivers (Action 1) and study grants (Action 2) based on merit.</p>
+            <a class="btn btn-outline mt-16" href="universities.html#unibo">Explore Bologna</a>
           </div>
         </article>
-        <article class="sch-card reveal" data-type="university" data-tags="university specific,padua,department,grants">
-          <img src="https://images.unsplash.com/photo-1530033952761-04729f1ae83f?q=80&w=1200&auto=format&fit=crop" alt="Padua, Veneto" />
+
+        <article class="sch-card reveal">
           <div class="card-content">
-            <h2>University Specific Grants</h2>
-            <p><strong>Eligibility:</strong> Varies by department and program.</p>
-            <p><strong>Benefits:</strong> Stipends, fee discounts, research assistance.</p>
-            <div class="tags"><span>University</span><span>Padua</span><span>Department</span></div>
-            <div class="mt-16">
-              <a class="btn btn-outline" href="universities.html#padua">See Padua</a>
-            </div>
+            <h2><span class="sch-icon" aria-hidden="true">🏅</span>University of Padua – International Excellence</h2>
+            <p><strong>Eligibility:</strong> High‑achieving non‑EU students outside Italy, including Nepali, applying to English‑taught degrees.</p>
+            <p><strong>Benefits:</strong> Fee waiver plus living allowance for the program duration.</p>
+            <a class="btn btn-outline mt-16" href="universities.html#padua">See Padua</a>
+          </div>
+        </article>
+
+        <article class="sch-card reveal">
+          <div class="card-content">
+            <h2><span class="sch-icon" aria-hidden="true">⭐</span>Politecnico di Milano – Merit Scholarships</h2>
+            <p><strong>Eligibility:</strong> Outstanding international applicants (incl. Nepali) to MSc programs.</p>
+            <p><strong>Benefits:</strong> Full/partial tuition waivers; some include stipends.</p>
+            <a class="btn btn-outline mt-16" href="universities.html#polimi">Explore Polimi</a>
           </div>
         </article>
       </div>
@@ -132,9 +112,9 @@
     <div class="container footer-grid">
       <div>
         <a class="logo" href="index.html">Study in Italy</a>
-        <p>Helping students secure admissions, scholarships, and visas to top Italian universities.</p>
+        <p>Trusted guidance for admissions and visas to Italian universities.</p>
       </div>
-      <nav aria-label="Footer" class="footer-nav">
+      <nav aria-label="Quick links" class="footer-nav">
         <a href="about.html">About</a>
         <a href="universities.html">Universities</a>
         <a href="services.html">Services</a>
@@ -143,21 +123,18 @@
         <a href="testimonials.html">Testimonials</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <form class="newsletter" action="#" method="post">
-        <label for="newsletterEmail">Subscribe to our newsletter</label>
-        <div class="row">
-          <input id="newsletterEmail" type="email" placeholder="Your email address" required />
-          <button type="submit" class="btn btn-gold">Subscribe</button>
-        </div>
-      </form>
+      <div>
+        <p><strong>Contact</strong></p>
+        <p>Email: hello@example.com<br/>Phone: +39 000 000 000</p>
+        <a class="btn btn-gold" href="booking.html">Book Free Consultation</a>
+      </div>
     </div>
     <div class="container copyright">
-      <p>© <span id="year"></span> Study in Italy Consultancy. All rights reserved.</p>
+      <p>© <span id="year"></span> Study in Italy Consultancy.</p>
     </div>
   </footer>
 
   <script src="js/main.js" defer></script>
-  <script src="js/scholarships.js" defer></script>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
