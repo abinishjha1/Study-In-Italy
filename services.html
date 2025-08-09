@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services | Study in Italy Consultancy</title>
+  <meta name="description" content="Admission guidance, document preparation, scholarship assistance, visa support, language prep, and accommodation help for studying in Italy." />
+  <link rel="canonical" href="/services.html" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">Study in Italy</a>
+      <nav class="main-nav" aria-label="Primary">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="universities.html">Universities</a></li>
+          <li><a class="active" href="services.html">Services</a></li>
+          <li><a href="scholarships.html">Scholarships</a></li>
+          <li><a href="guide.html">Guide</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="btn btn-gold" href="booking.html">Book Free Consultation</a></li>
+        </ul>
+      </nav>
+      <form class="nav-search" action="universities.html" method="get" role="search">
+        <input type="search" name="q" placeholder="Search" aria-label="Search" />
+        <button type="submit" class="btn btn-outline">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" style="--hero-image: url('https://images.unsplash.com/photo-1486072889922-9aea1fc0a34d?q=80&w=1920&auto=format&fit=crop');">
+      <div class="overlay"></div>
+      <div class="container">
+        <h1 class="reveal">Our Services</h1>
+        <p class="reveal">Everything you need from picking programs to landing in Italy.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="grid service-cards">
+        <article class="service-card reveal">
+          <h2>Admission Guidance</h2>
+          <ul class="checklist">
+            <li>Profile evaluation and program shortlisting</li>
+            <li>Application timeline and strategy</li>
+            <li>University portal submissions</li>
+          </ul>
+        </article>
+        <article class="service-card reveal">
+          <h2>Document Preparation</h2>
+          <ul class="checklist">
+            <li>Transcripts, translations, and apostille guidance</li>
+            <li>Statement of Purpose and Letters of Recommendation</li>
+            <li>CV format for Italian universities</li>
+          </ul>
+        </article>
+        <article class="service-card reveal">
+          <h2>Scholarship Assistance</h2>
+          <ul class="checklist">
+            <li>Identify suitable funding options</li>
+            <li>Application review and submission</li>
+            <li>DSU/ER.GO/LAZIODISCO support</li>
+          </ul>
+        </article>
+        <article class="service-card reveal">
+          <h2>Visa Support</h2>
+          <ul class="checklist">
+            <li>Document checklists and templates</li>
+            <li>Mock interviews and preparation</li>
+            <li>Travel insurance and booking guidance</li>
+          </ul>
+        </article>
+        <article class="service-card reveal">
+          <h2>Language Preparation</h2>
+          <ul class="checklist">
+            <li>Italian A1–B2 prep with partner schools</li>
+            <li>IELTS/TOEFL preparation resources</li>
+            <li>Conversation clubs before departure</li>
+          </ul>
+        </article>
+        <article class="service-card reveal">
+          <h2>Accommodation Assistance</h2>
+          <ul class="checklist">
+            <li>Student residences and private housing</li>
+            <li>Neighborhood insights and budget planning</li>
+            <li>Temporary stays for arrival</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section center alt-bg">
+      <div class="container">
+        <h2 class="reveal">Start with a free 20-minute consultation</h2>
+        <p class="reveal">We’ll map your timeline and shortlist programs.</p>
+        <a href="/booking.html" class="btn btn-maroon reveal">Book Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">Study in Italy</a>
+        <p>Helping students secure admissions, scholarships, and visas to top Italian universities.</p>
+      </div>
+      <nav aria-label="Footer" class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="universities.html">Universities</a>
+        <a href="services.html">Services</a>
+        <a href="scholarships.html">Scholarships</a>
+        <a href="guide.html">Guide</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <form class="newsletter" action="#" method="post">
+        <label for="newsletterEmail">Subscribe to our newsletter</label>
+        <div class="row">
+          <input id="newsletterEmail" type="email" placeholder="Your email address" required />
+          <button type="submit" class="btn btn-gold">Subscribe</button>
+        </div>
+      </form>
+    </div>
+    <div class="container copyright">
+      <p>© <span id="year"></span> Study in Italy Consultancy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+

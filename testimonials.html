@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Testimonials | Study in Italy Consultancy</title>
+  <meta name="description" content="Real success stories from students who joined Italian universities with our guidance." />
+  <link rel="canonical" href="/testimonials.html" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">Study in Italy</a>
+      <nav class="main-nav" aria-label="Primary">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="universities.html">Universities</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="scholarships.html">Scholarships</a></li>
+          <li><a href="guide.html">Guide</a></li>
+          <li><a class="active" href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="btn btn-gold" href="booking.html">Book Free Consultation</a></li>
+        </ul>
+      </nav>
+      <form class="nav-search" action="universities.html" method="get" role="search">
+        <input type="search" name="q" placeholder="Search" aria-label="Search" />
+        <button type="submit" class="btn btn-outline">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" style="--hero-image: url('https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1920&auto=format&fit=crop');">
+      <div class="overlay"></div>
+      <div class="container">
+        <h1 class="reveal">Student Testimonials</h1>
+        <p class="reveal">Hear from students who made Italy their academic home.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="grid testimonials">
+        <article class="testimonial reveal">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=600&auto=format&fit=crop" alt="Student photo" />
+          <blockquote>“They simplified the entire process from selecting programs to visas. I’m now in Milan studying Design.”</blockquote>
+          <cite>— Aisha, Politecnico di Milano</cite>
+        </article>
+        <article class="testimonial reveal">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=600&auto=format&fit=crop" alt="Student photo" />
+          <blockquote>“Won a DSU scholarship with their guidance. The support was incredible.”</blockquote>
+          <cite>— Daniel, University of Pisa</cite>
+        </article>
+        <article class="testimonial reveal">
+          <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=600&auto=format&fit=crop" alt="Student photo" />
+          <blockquote>“Clear timelines and document review helped me secure admission to Sapienza.”</blockquote>
+          <cite>— Priya, Sapienza University of Rome</cite>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">Study in Italy</a>
+        <p>Helping students secure admissions, scholarships, and visas to top Italian universities.</p>
+      </div>
+      <nav aria-label="Footer" class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="universities.html">Universities</a>
+        <a href="services.html">Services</a>
+        <a href="scholarships.html">Scholarships</a>
+        <a href="guide.html">Guide</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <form class="newsletter" action="#" method="post">
+        <label for="newsletterEmail">Subscribe to our newsletter</label>
+        <div class="row">
+          <input id="newsletterEmail" type="email" placeholder="Your email address" required />
+          <button type="submit" class="btn btn-gold">Subscribe</button>
+        </div>
+      </form>
+    </div>
+    <div class="container copyright">
+      <p>© <span id="year"></span> Study in Italy Consultancy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+

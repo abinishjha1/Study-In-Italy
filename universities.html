@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Universities in Italy | Programs, Requirements, Scholarships</title>
+  <meta name="description" content="Explore top Italian universities: courses, locations, admission requirements, tuition fees, and scholarships for international students." />
+  <link rel="canonical" href="/universities.html" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">Study in Italy</a>
+      <nav class="main-nav" aria-label="Primary">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="menu">
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="universities.html">Universities</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="scholarships.html">Scholarships</a></li>
+          <li><a href="guide.html">Guide</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="btn btn-gold" href="booking.html">Book Free Consultation</a></li>
+        </ul>
+      </nav>
+      <form class="nav-search" action="universities.html" method="get" role="search">
+        <input type="search" name="q" id="uniSearchTop" placeholder="Search universities or courses" aria-label="Search" />
+        <button type="submit" class="btn btn-outline">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" style="--hero-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1920&auto=format&fit=crop');">
+      <div class="overlay"></div>
+      <div class="container">
+        <h1 class="reveal">Universities in Italy</h1>
+        <p class="reveal">Browse popular institutions, programs, requirements, and scholarships.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="searchbar reveal">
+        <input type="search" id="uniSearch" placeholder="Search by university, city, or course (e.g., Engineering, Medicine)" />
+      </div>
+      <div id="uniResults" class="grid uni-cards">
+        <!-- University Card: University of Bologna -->
+        <article id="unibo" class="uni-card reveal" data-name="University of Bologna" data-city="Bologna" data-courses="Computer Science,Medicine,Humanities,Engineering">
+          <img src="https://images.unsplash.com/photo-1591800121439-4c3b2b0dbe45?q=80&w=1200&auto=format&fit=crop" alt="University of Bologna campus" />
+          <div class="uni-content">
+            <div class="uni-header">
+              <h2>University of Bologna</h2>
+              <span class="badge">Bologna</span>
+            </div>
+            <p><strong>Popular courses:</strong> Computer Science, Medicine, Humanities</p>
+            <p><strong>Admission:</strong> High school diploma/Bachelor's, language certificate (English/Italian), entrance exam for select programs.</p>
+            <p><strong>Tuition:</strong> ~€1,000–€3,000/year (variable, income-based)</p>
+            <p><strong>Scholarships:</strong> Regional ER.GO, merit awards, tuition waivers</p>
+          </div>
+        </article>
+
+        <!-- University Card: Sapienza -->
+        <article id="sapienza" class="uni-card reveal" data-name="Sapienza University of Rome" data-city="Rome" data-courses="Engineering,Architecture,Economics,Humanities">
+          <img src="https://images.unsplash.com/photo-1505764706515-aa95265c5abc?q=80&w=1200&auto=format&fit=crop" alt="Sapienza University of Rome" />
+          <div class="uni-content">
+            <div class="uni-header">
+              <h2>Sapienza University of Rome</h2>
+              <span class="badge">Rome</span>
+            </div>
+            <p><strong>Popular courses:</strong> Engineering, Architecture, Economics</p>
+            <p><strong>Admission:</strong> Transcripts, CV, language proof, entrance tests for specific schools.</p>
+            <p><strong>Tuition:</strong> ~€1,500–€3,000/year</p>
+            <p><strong>Scholarships:</strong> LazioDisco, departmental awards</p>
+          </div>
+        </article>
+
+        <!-- Politecnico di Milano -->
+        <article id="polimi" class="uni-card reveal" data-name="Politecnico di Milano" data-city="Milan" data-courses="Design,Engineering,Architecture,Computer Science">
+          <img src="https://images.unsplash.com/photo-1491555103944-7c647fd857e6?q=80&w=1200&auto=format&fit=crop" alt="Politecnico di Milano" />
+          <div class="uni-content">
+            <div class="uni-header">
+              <h2>Politecnico di Milano</h2>
+              <span class="badge">Milan</span>
+            </div>
+            <p><strong>Popular courses:</strong> Design, Engineering, Architecture</p>
+            <p><strong>Admission:</strong> Strong portfolio for design/architecture, test scores, GPA.
+            </p>
+            <p><strong>Tuition:</strong> ~€2,500–€3,900/year</p>
+            <p><strong>Scholarships:</strong> DSU, merit-based tuition waivers</p>
+          </div>
+        </article>
+
+        <!-- University of Pisa -->
+        <article id="pisa" class="uni-card reveal" data-name="University of Pisa" data-city="Pisa" data-courses="Physics,Mathematics,Engineering,Medicine">
+          <img src="https://images.unsplash.com/photo-1544989164-31dc3c645987?q=80&w=1200&auto=format&fit=crop" alt="University of Pisa" />
+          <div class="uni-content">
+            <div class="uni-header">
+              <h2>University of Pisa</h2>
+              <span class="badge">Pisa</span>
+            </div>
+            <p><strong>Popular courses:</strong> Physics, Mathematics, Engineering</p>
+            <p><strong>Admission:</strong> Academic transcripts, statement of purpose, language proof.</p>
+            <p><strong>Tuition:</strong> ~€2,500/year</p>
+            <p><strong>Scholarships:</strong> DSU Toscana, departmental grants</p>
+          </div>
+        </article>
+
+        <!-- University of Padua -->
+        <article id="padua" class="uni-card reveal" data-name="University of Padua" data-city="Padua" data-courses="Medicine,Engineering,Biotechnology,Economics">
+          <img src="https://images.unsplash.com/photo-1530033952761-04729f1ae83f?q=80&w=1200&auto=format&fit=crop" alt="University of Padua" />
+          <div class="uni-content">
+            <div class="uni-header">
+              <h2>University of Padua</h2>
+              <span class="badge">Padua</span>
+            </div>
+            <p><strong>Popular courses:</strong> Medicine, Biotechnology, Economics</p>
+            <p><strong>Admission:</strong> Entrance tests for medical tracks, academic merit.
+            </p>
+            <p><strong>Tuition:</strong> ~€1,000–€2,800/year</p>
+            <p><strong>Scholarships:</strong> Veneto region DSU, excellence awards</p>
+          </div>
+        </article>
+
+        <!-- University of Milan -->
+        <article id="unimi" class="uni-card reveal" data-name="University of Milan" data-city="Milan" data-courses="Biology,Economics,Computer Science,Law">
+          <img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=1200&auto=format&fit=crop" alt="University of Milan" />
+          <div class="uni-content">
+            <div class="uni-header">
+              <h2>University of Milan</h2>
+              <span class="badge">Milan</span>
+            </div>
+            <p><strong>Popular courses:</strong> Biology, Economics, Computer Science</p>
+            <p><strong>Admission:</strong> Academic merit, program prerequisites, language proficiency.</p>
+            <p><strong>Tuition:</strong> ~€1,500–€3,800/year</p>
+            <p><strong>Scholarships:</strong> DSU Lombardy, need-based awards</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section center alt-bg">
+      <div class="container">
+        <h2 class="reveal">Need personalized advice?</h2>
+        <p class="reveal">Get a tailored university shortlist based on your profile.</p>
+        <a href="/booking.html" class="btn btn-maroon reveal">Book Free Consultation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">Study in Italy</a>
+        <p>Helping students secure admissions, scholarships, and visas to top Italian universities.</p>
+      </div>
+      <nav aria-label="Footer" class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="universities.html">Universities</a>
+        <a href="services.html">Services</a>
+        <a href="scholarships.html">Scholarships</a>
+        <a href="guide.html">Guide</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <form class="newsletter" action="#" method="post">
+        <label for="newsletterEmail">Subscribe to our newsletter</label>
+        <div class="row">
+          <input id="newsletterEmail" type="email" placeholder="Your email address" required />
+          <button type="submit" class="btn btn-gold">Subscribe</button>
+        </div>
+      </form>
+    </div>
+    <div class="container copyright">
+      <p>© <span id="year"></span> Study in Italy Consultancy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+
